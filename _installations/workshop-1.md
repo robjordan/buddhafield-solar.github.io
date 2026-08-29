@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Padma Pancakes
+title: Workshop 1
+summary: "Workshop tent consuming power for lighting, audio, etc."
 ---
 
-# Padma Pancakes
+
+# {{ page.title }}
 
 [← Back to Home]({{ site.baseurl }}/)
 
 ### Overview
-Primary inverter setup and battery bank supporting main stage audio.
+{{ page.summary }}
 
 ### Inventory
 *   1x EcoFlow Delta 2 Max

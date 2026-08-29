@@ -1,0 +1,4 @@
+collections:
+  installations:
+    output: true
+    permalink: /installations/:name/

@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Main Solar Array and Charging Trailer
+title: Site Office
+summary: "Solar array and battery bank to supply Site Office and Safeguarding."
 ---
 
-# Main Solar Array and Charging Trailer
+# {{ page.title }}
 
 [← Back to Home]({{ site.baseurl }}/)
 
 ### Overview
-Primary inverter setup and battery bank supporting main stage audio.
+{{ page.summary }}
 
 ### Inventory
 *   1x EcoFlow Delta 2 Max

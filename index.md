@@ -8,10 +8,10 @@ title: Buddhafield Solar Power 2026 Energy Analysis and Inventory
 Select an installation below to view its inventory, photos, etc.
 
 <ul>
-  {% for site_item in site.data.installations %}
+  {% for item in site.installations %}
     <li>
-      <a href="{{ site.baseurl }}/installations/{{ site_item.slug }}/">{{ site_item.name }}</a>
-      <p>{{ site_item.summary }}</p>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      <p>{{ item.capacity }}</p>
     </li>
   {% endfor %}
 </ul>

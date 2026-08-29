@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Charging Tent
+title: Padma Pancakes
+summary: "Padma Pancakes."
 ---
 
-# Charging Tent
+# {{ page.title }}
 
 [← Back to Home]({{ site.baseurl }}/)
 
 ### Overview
-Primary inverter setup and battery bank supporting main stage audio.
+{{ page.summary }}
 
 ### Inventory
 *   1x EcoFlow Delta 2 Max
