@@ -1,7 +1,9 @@
 ---
 layout: default
-title: SOMA
+title: Soma
 summary: "SOMA tent consuming power for lighting, audio, cafe, etc."
+generator: false
+consumer: true
 ---
 
 

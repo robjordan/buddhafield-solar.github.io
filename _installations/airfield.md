@@ -2,6 +2,8 @@
 layout: default
 title: "Airfield"
 summary: "Solar array and battery bank to supply ticket office."
+generator: true
+consumer: true
 ---
 
 # {{ page.title }}

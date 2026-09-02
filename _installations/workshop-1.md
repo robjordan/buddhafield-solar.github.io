@@ -2,6 +2,8 @@
 layout: default
 title: Workshop 1
 summary: "Workshop tent consuming power for lighting, audio, etc."
+generator: true
+consumer: true
 ---
 
 

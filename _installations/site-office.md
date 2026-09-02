@@ -2,6 +2,8 @@
 layout: default
 title: Site Office
 summary: "Solar array and battery bank to supply Site Office and Safeguarding."
+generator: true
+consumer: true
 ---
 
 # {{ page.title }}

@@ -1,6 +1,6 @@
 [
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-13T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -13,7 +13,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-14T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -26,7 +26,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-15T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -39,7 +39,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-16T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -52,7 +52,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-17T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -65,7 +65,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Charge Tent",
+    "Installation": "Charging Tent",
     "Date": "2026-07-18T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -78,7 +78,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-13T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -91,7 +91,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-14T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -104,7 +104,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-15T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -117,7 +117,7 @@
     "ConsEstimationBasis": "By deduction: we know charge tent and eastern feeder consumption, so subtract those from the total consumption from the trailer."
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-16T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -130,7 +130,7 @@
     "ConsEstimationBasis": "By deduction: we know charge tent and eastern feeder consumption, so subtract those from the total consumption from the trailer."
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-17T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -143,7 +143,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Padma",
+    "Installation": "Padma Pancakes",
     "Date": "2026-07-18T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -156,7 +156,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-13T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 3.5575609756097557,
@@ -169,7 +169,7 @@
     "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-14T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 3.375121951219512,
@@ -182,7 +182,7 @@
     "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-15T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 3.375121951219512,
@@ -195,7 +195,7 @@
     "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-16T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 5.587195121951219,
@@ -208,7 +208,7 @@
     "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-17T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 3.078658536585366,
@@ -221,7 +221,7 @@
     "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
-    "Installation": "Site Office / Safeguarding",
+    "Installation": "Site Office",
     "Date": "2026-07-18T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": 4.310121951219512,
@@ -236,8 +236,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-13T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 12.2,
+    "GenKWh": 12.2,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -249,8 +249,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-14T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 12.9,
+    "GenKWh": 12.9,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -262,8 +262,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-15T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 17.2,
+    "GenKWh": 17.2,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -275,8 +275,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-16T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 21.2,
+    "GenKWh": 21.2,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -288,8 +288,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-17T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 23.5,
+    "GenKWh": 23.5,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -301,8 +301,8 @@
   {
     "Installation": "Main Trailer",
     "Date": "2026-07-18T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 26.4,
+    "GenKWh": 26.4,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": "",
     "LowBattVNormalised": "",
@@ -314,8 +314,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-13T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 5.65,
+    "GenKWh": 5.65,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 11.16,
     "LowBattVNormalised": 11.16,
@@ -327,8 +327,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-14T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 3.24,
+    "GenKWh": 3.24,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 12.41,
     "LowBattVNormalised": 12.41,
@@ -340,8 +340,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-15T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 3.19,
+    "GenKWh": 3.19,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 12.5,
     "LowBattVNormalised": 12.5,
@@ -353,8 +353,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-16T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 2.88,
+    "GenKWh": 2.88,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 12.45,
     "LowBattVNormalised": 12.45,
@@ -366,8 +366,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-17T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 2.62,
+    "GenKWh": 2.62,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 12.54,
     "LowBattVNormalised": 12.54,
@@ -379,8 +379,8 @@
   {
     "Installation": "Airfield",
     "Date": "2026-07-18T23:00:00.000Z",
-    "GenKWh": "",
-    "GenEstimated": 2.44,
+    "GenKWh": 2.44,
+    "GenEstimated": "",
     "GenEstimationBasis": "",
     "LowBattV": 12.4,
     "LowBattVNormalised": 12.4,
@@ -468,7 +468,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-13T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -481,7 +481,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-14T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -494,7 +494,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-15T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -507,7 +507,7 @@
     "ConsEstimationBasis": ""
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-16T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -520,7 +520,7 @@
     "ConsEstimationBasis": "From the energy monitor LCD display"
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-17T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",
@@ -533,7 +533,7 @@
     "ConsEstimationBasis": "From the energy monitor LCD display"
   },
   {
-    "Installation": "Soma / Soma cafe",
+    "Installation": "Soma",
     "Date": "2026-07-18T23:00:00.000Z",
     "GenKWh": "",
     "GenEstimated": "",

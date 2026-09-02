@@ -2,6 +2,8 @@
 layout: default
 title: Malvern Solar
 summary: "Solar array and battery bank supplied under contract by Malvern Solar."
+generator: true
+consumer: false
 ---
 
 # {{ page.title }}

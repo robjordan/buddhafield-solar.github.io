@@ -2,6 +2,8 @@
 layout: default
 title: Padma Pancakes
 summary: "Padma Pancakes."
+generator: false
+consumer: true
 ---
 
 # {{ page.title }}

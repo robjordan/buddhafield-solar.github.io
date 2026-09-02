@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Main Solar Array and Battery Trailer
+title: Main Trailer
 summary: "Main Buddhafield Power solar array and battery bank trailer."
+generator: true
+consumer: false
 ---
 
 # {{ page.title }}

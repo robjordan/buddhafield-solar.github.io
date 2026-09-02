@@ -2,6 +2,8 @@
 layout: default
 title: Charging Tent
 summary: "Buddhafield Power team tent for charging radios and other rechargeable equipment."
+generator: false
+consumer: true
 ---
 
 # {{ page.title }}

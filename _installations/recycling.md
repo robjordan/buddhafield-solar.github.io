@@ -2,6 +2,8 @@
 layout: default
 title: Recycling
 summary: "Enviro-Mental Temple."
+generator: true
+consumer: true
 ---
 
 # {{ page.title }}
