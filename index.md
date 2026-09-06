@@ -7,7 +7,7 @@ title: Buddhafield Solar Power 2026 Energy Analysis and Inventory
 
 Select an installation below to view its inventory, photos, etc.
 
-# Daily consumption by installation (KWh)
+# Daily consumption by installation (kWh)
 <table>
   <thead>
     <tr>
@@ -58,9 +58,18 @@ Select an installation below to view its inventory, photos, etc.
                 {% if record.ConsKWh != "" and record.ConsKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.ConsEstimated != "" and record.ConsEstimated != nil %}
-                <span title="{{ record.ConsEstimationBasis }}" style="font-style: italic; cursor: help; border-bottom: 1px dotted currentColor;">
+
+                <span class="tooltip-trigger" 
+                    role="button" 
+                    tabindex="0"
+                    onclick="toggleTooltip(event, this)" 
+                    ontouchstart="toggleTooltip(event, this)">
+                <span style="font-style: italic; cursor: pointer; border-bottom: 1px dotted currentColor;">
                     {{ val | round: 1 }}
                 </span>
+                <span class="tooltip-bubble">{{ record.ConsEstimationBasis }}</span>
+                </span>
+
                 {% else %}
                 —
                 {% endif %}
@@ -80,7 +89,7 @@ Select an installation below to view its inventory, photos, etc.
   </tbody>
 </table>
 
-# Daily generation by installation (KWh)
+# Daily generation by installation (kWh)
 <table>
   <thead>
     <tr>
@@ -132,8 +141,15 @@ Select an installation below to view its inventory, photos, etc.
                 {% if record.GenKWh != "" and record.GenKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.GenEstimated != "" and record.GenEstimated != nil %}
-                <span title="{{ record.GenEstimationBasis }}" style="font-style: italic; cursor: help; border-bottom: 1px dotted currentColor;">
+                <span class="tooltip-trigger" 
+                    role="button" 
+                    tabindex="0"
+                    onclick="toggleTooltip(event, this)" 
+                    ontouchstart="toggleTooltip(event, this)">
+                <span style="font-style: italic; cursor: pointer; border-bottom: 1px dotted currentColor;">
                     {{ val | round: 1 }}
+                </span>
+                <span class="tooltip-bubble">{{ record.GenEstimationBasis }}</span>
                 </span>
                 {% else %}
                 —

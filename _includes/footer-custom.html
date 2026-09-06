@@ -1,0 +1,33 @@
+<script>
+  function toggleTooltip(event, element) {
+    // Stop event bubbling to document
+    if (event) {
+      event.stopPropagation();
+      // Prevent double triggers on touch devices
+      if (event.type === 'touchstart') {
+        element.dataset.touched = 'true';
+      } else if (event.type === 'click' && element.dataset.touched === 'true') {
+        element.dataset.touched = 'false';
+        return;
+      }
+    }
+
+    // Dismiss any other open tooltips
+    document.querySelectorAll('.tooltip-trigger.active').forEach(el => {
+      if (el !== element) el.classList.remove('active');
+    });
+
+    // Toggle selected tooltip
+    element.classList.toggle('active');
+  }
+
+  // Dismiss tooltips when tapping outside
+  const dismissTooltips = () => {
+    document.querySelectorAll('.tooltip-trigger.active').forEach(el => {
+      el.classList.remove('active');
+    });
+  };
+
+  document.addEventListener('click', dismissTooltips);
+  document.addEventListener('touchstart', dismissTooltips);
+</script>
