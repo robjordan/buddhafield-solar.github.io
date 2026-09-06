@@ -2881,25 +2881,3 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .highlight .w { color: #bbbbbb; }
 
 .highlight { background-color: #f8f8f8; }
-
-/* Add your custom styles below the theme import */
-/* Ensure table containers don't clip tooltips */
-.markdown-body table { overflow: visible !important; }
-
-.markdown-body td, .markdown-body th { position: relative; /* Scope positioning without clipping */ }
-
-/* Tooltip container */
-.tooltip-trigger { position: relative; display: inline-block; -webkit-tap-highlight-color: transparent; /* Clean up tap highlights on iOS */ }
-
-/* Tooltip bubble positioning */
-.tooltip-bubble { visibility: hidden; opacity: 0; position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%); background-color: #24292e; /* Matches Primer dark tone */ color: #ffffff; text-align: left; padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; font-style: normal; line-height: 1.3; /* Constrain size and wrap text */ white-space: normal; width: max-content; max-width: 220px; box-sizing: border-box; /* Layer above table borders and headers */ z-index: 999; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out; pointer-events: none; }
-
-/* Prevent edge clipping for cells near the left/right screen edges */
-td:first-child .tooltip-bubble { left: 0; transform: translateX(0); }
-
-td:last-child .tooltip-bubble { left: auto; right: 0; transform: translateX(0); }
-
-/* Desktop hover */
-@media (hover: hover) { .tooltip-trigger:hover .tooltip-bubble { visibility: visible; opacity: 1; } }
-/* Touch active state */
-.tooltip-trigger.active .tooltip-bubble { visibility: visible; opacity: 1; }

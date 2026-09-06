@@ -58,18 +58,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% if record.ConsKWh != "" and record.ConsKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.ConsEstimated != "" and record.ConsEstimated != nil %}
-
-                <span class="tooltip-trigger" 
-                    role="button" 
-                    tabindex="0"
-                    onclick="toggleTooltip(event, this)" 
-                    ontouchstart="toggleTooltip(event, this)">
-                <span style="font-style: italic; cursor: pointer; border-bottom: 1px dotted currentColor;">
-                    {{ val | round: 1 }}
-                </span>
-                <span class="tooltip-bubble">{{ record.ConsEstimationBasis }}</span>
-                </span>
-
+                <span class="annot" data-tip="{{ record.ConsEstimationBasis }}">{{ val | round: 1 }}</span>
                 {% else %}
                 —
                 {% endif %}
@@ -141,16 +130,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% if record.GenKWh != "" and record.GenKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.GenEstimated != "" and record.GenEstimated != nil %}
-                <span class="tooltip-trigger" 
-                    role="button" 
-                    tabindex="0"
-                    onclick="toggleTooltip(event, this)" 
-                    ontouchstart="toggleTooltip(event, this)">
-                <span style="font-style: italic; cursor: pointer; border-bottom: 1px dotted currentColor;">
-                    {{ val | round: 1 }}
-                </span>
-                <span class="tooltip-bubble">{{ record.GenEstimationBasis }}</span>
-                </span>
+                <span class="annot" data-tip="{{ record.GenEstimationBasis }}">{{ val | round: 1 }}</span>
                 {% else %}
                 —
                 {% endif %}
