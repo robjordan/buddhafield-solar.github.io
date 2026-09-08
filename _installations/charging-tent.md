@@ -16,7 +16,4 @@ consumer: true
 {% include installation-gallery.html %}
 
 ### Inventory
-* stuff
-
-### Photos
-![Inverter Setup]({{ site.baseurl }}/assets/img/stage-inverter.jpg)
+*   Stuff

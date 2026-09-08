@@ -32,9 +32,10 @@ title: "Buddhafield 2026 Solar Power Information Repository"
 
 ## Other installations, energy not monitored
 
-* [Water pump](/installations/water-pump)
-* Fairy track solar lighting festoon
-* Owl track solar lighting festoon
+* [Water pump](/installations/water-pump/)
+* [Fairy track solar lighting festoon](/installations/fairy-track/)
+* [Owl track solar lighting festoon](/installations/owl-track/)
+* [Dharma parlour](/installations/dharma-parlour/)
 
 
 

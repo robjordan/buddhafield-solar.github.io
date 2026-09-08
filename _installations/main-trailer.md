@@ -16,9 +16,4 @@ consumer: false
 {% include installation-gallery.html %}
 
 ### Inventory
-*   1x EcoFlow Delta 2 Max
-*   2x 200W Monocrystalline Panels
-*   Heavy-duty Anderson power pole cabling
-
-### Photos
-![Inverter Setup]({{ site.baseurl }}/assets/img/stage-inverter.jpg)
+*   Stuff

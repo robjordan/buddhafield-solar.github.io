@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Recycling
-summary: "Enviro-Mental Temple."
+title: "Dharma Parlour"
+summary: "Solar panels and batteries to support light and sound in the Dharma Parlour."
 generator: true
 consumer: true
 ---
@@ -10,8 +10,6 @@ consumer: true
 
 ### Overview
 {{ page.summary }}
-
-{% include energy-table-installation.html %}
 
 {% include installation-gallery.html %}
 
