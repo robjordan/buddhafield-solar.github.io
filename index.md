@@ -30,5 +30,11 @@ title: "Buddhafield 2026 Solar Power Information Repository"
    basis_key="ConsEstimationBasis" 
    bg_rgb="239, 68, 68" %}
 
+## Other installations, energy not monitored
+
+* [Water pump](/installations/water-pump)
+* Fairy track solar lighting festoon
+* Owl track solar lighting festoon
+
 
 

@@ -103,3 +103,111 @@
 .num-cell {
   text-align: center !important;
 }
+
+/* Responsive Thumbnail Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.gallery-item {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
+  background-color: #f6f8fa;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Images gallery */
+/* Lightbox Modal Base State */
+.lightbox-modal {
+  display: none !important;
+  position: fixed !important;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.88);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Modal Open State */
+.lightbox-modal.is-open {
+  display: flex !important;
+}
+
+.lightbox-content {
+  max-width: 85vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  z-index: 100001;
+}
+
+/* Navigation Arrow Buttons */
+.lightbox-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 2.5rem;
+  line-height: 1;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  user-select: none;
+  z-index: 100000;
+  transition: background 0.2s ease;
+}
+
+.lightbox-arrow:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .lightbox-arrow {
+    top: auto;
+    bottom: 25px;
+    transform: none;
+  }
+}

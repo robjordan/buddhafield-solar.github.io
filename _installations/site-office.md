@@ -8,10 +8,12 @@ consumer: true
 
 # {{ page.title }}
 
-{% include energy-table-installation.html %}
-
 ### Overview
 {{ page.summary }}
+
+{% include energy-table-installation.html %}
+
+{% include installation-gallery.html %}
 
 ### Inventory
 *   1x EcoFlow Delta 2 Max
