@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buddhafield Solar Power 2026 Energy Analysis and Inventory
+title: "Buddhafield 2026 Solar Power Information Repository"
 ---
 
 # Site Installations

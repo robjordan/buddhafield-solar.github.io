@@ -102,7 +102,4 @@
 /* Right-align numbers and tabular data */
 .num-cell {
   text-align: center !important;
-  /*
-  font-variant-numeric: tabular-nums; /* Keeps numbers aligned nicely by column */
-  */
 }
