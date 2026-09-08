@@ -700,5 +700,83 @@
     "ConsKWh": "",
     "ConsEstimated": 3,
     "ConsEstimationBasis": "From the energy monitor LCD display"
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-13T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": "",
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-14T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": 70,
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-15T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": 48,
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-16T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": 60,
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-17T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": 43,
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
+  },
+  {
+    "Installation": "Malvern Solar",
+    "Date": "2026-07-18T23:00:00.000Z",
+    "GenKWh": "",
+    "GenEstimated": "",
+    "GenEstimationBasis": "",
+    "LowBattV": "",
+    "LowBattVNormalised": "",
+    "SOC%": 50,
+    "ConsKWh": "",
+    "ConsEstimated": "",
+    "ConsEstimationBasis": ""
   }
 ]
