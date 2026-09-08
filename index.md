@@ -9,11 +9,7 @@ Select an installation below to view its inventory, photos, etc.
 
 # Daily consumption by installation (kWh)
 <table>
-  <colgroup>
-    <!-- First column takes 30% of the table width -->
-    <col style="width: 30%;">
-    <!-- Remaining columns divide the rest equally -->
-  </colgroup>
+
   <thead>
     <tr>
       <th>Installation</th>
@@ -85,11 +81,7 @@ Select an installation below to view its inventory, photos, etc.
 
 # Daily generation by installation (kWh)
 <table>
-  <colgroup>
-    <!-- First column takes 30% of the table width -->
-    <col style="width: 30%;">
-    <!-- Remaining columns divide the rest equally -->
-  </colgroup>
+
   <thead>
     <tr>
       <th>Installation</th>
