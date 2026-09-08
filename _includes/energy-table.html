@@ -1,0 +1,98 @@
+{% assign metric_type = include.type %} {% comment %} 'consumer' or 'generator' {% endcomment %}
+{% assign actual_key = include.actual_key %} {% comment %} 'ConsKWh' or 'GenKWh' {% endcomment %}
+{% assign est_key = include.est_key %} {% comment %} 'ConsEstimated' or 'GenEstimated' {% endcomment %}
+{% assign basis_key = include.basis_key %} {% comment %} 'ConsEstimationBasis' or 'GenEstimationBasis' {% endcomment %}
+{% assign bg_rgb = include.bg_rgb | default: "239, 68, 68" %} {% comment %} Red default, customizable {% endcomment %}
+
+<table>
+  <colgroup>
+    <col style="width: 30%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th align="left">Installation</th>
+      {% assign dates = site.data.energy | map: "Date" | uniq | compact | sort %}
+      {% for d in dates %}
+        <th>{{ d | date: "%b %d" }}</th>
+      {% endfor %}
+      <th>Mean</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign installations = site.data.energy | map: "Installation" | uniq | compact %}
+    {% for inst in installations %}
+      {% assign total_val = 0.0 %}
+      {% assign count_val = 0 %}
+      {% assign inst_page = site.installations | where: "title", inst | first %}
+
+      {% comment %} Dynamic check for consumer == true or generator == true {% endcomment %}
+      {% assign is_valid_type = false %}
+      {% if metric_type == "consumer" and inst_page.consumer == true %}
+        {% assign is_valid_type = true %}
+      {% elsif metric_type == "generator" and inst_page.generator == true %}
+        {% assign is_valid_type = true %}
+      {% endif %}
+
+      {% if is_valid_type %}
+        <tr>
+          <td>
+            <strong>
+              {% if inst_page %}
+                <a href="{{ inst_page.url | relative_url }}">{{ inst }}</a>
+              {% else %}
+                {{ inst }}
+              {% endif %}
+            </strong>
+          </td>
+          {% for d in dates %}
+            {% assign record = site.data.energy | where: "Installation", inst | where: "Date", d | first %}
+            {% assign val = nil %}
+            
+            {% comment %} Access object keys dynamically {% endcomment %}
+            {% assign raw_actual = record[actual_key] %}
+            {% assign raw_est = record[est_key] %}
+            {% assign raw_basis = record[basis_key] %}
+
+            {% if raw_actual != "" and raw_actual != nil %}
+              {% assign val = raw_actual | times: 1.0 %}
+            {% elsif raw_est != "" and raw_est != nil %}
+              {% assign val = raw_est | times: 1.0 %}
+            {% endif %}
+
+            {% if val %}
+              {% assign total_val = total_val | plus: val %}
+              {% assign count_val = count_val | plus: 1 %}
+              {% assign opacity = val | divided_by: 15.0 | at_most: 1.0 %}
+            {% endif %}
+
+            <td class="num-cell" {% if val %}style="background-color: rgba({{ bg_rgb }}, {{ opacity | round: 2 }}); color: {% if opacity > 0.6 %}white{% else %}inherit{% endif %};"{% endif %}>
+              {% if raw_actual != "" and raw_actual != nil %}
+                {{ val | round: 1 }}
+              {% elsif raw_est != "" and raw_est != nil %}
+                <span class="annot" data-tip="{{ raw_basis }}"><i>{{ val | round: 1 }}</i></span>
+              {% else %}
+                —
+              {% endif %}
+            </td>
+          {% endfor %}
+
+          <td class="num-cell">
+            {% if count_val > 0 %}
+              {% assign mean = total_val | divided_by: count_val %}
+              {{ mean | round: 1 }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

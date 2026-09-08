@@ -1,0 +1,11 @@
+# Compiled site output
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Vendor and bundler files
+vendor/
+.bundle/
+
+# Local server metadata
+.jekyll-metadata
