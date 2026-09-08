@@ -3,17 +3,16 @@ layout: default
 title: "Buddhafield 2026 Solar Power Information Repository"
 ---
 
-# {{ site.title }}
-
-## Site Installations
-
-Select an installation below to view its inventory, photos, etc.
+{% if site.title %}
+  <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+{% endif %}
 
 ## Energy measurements
 
-<p>Estimated values are shown in <i>italics</i> and the basis of the estimate can be shown by touching or rolling over the numeric value.</p>
-<p>A dash (&mdash;) means we have no data and no basis for estimation.</p>
-<p>Mean values represent the average of those days which have actual or estimated data.</p>
+* Estimated values are shown in <i>italics</i> and the basis of the estimate can be shown by touching or rolling over the numeric value.
+* A dash (&mdash;) means we have no data and no basis for estimation.
+* Mean values represent the average of those days which have actual or estimated data.
+* Select an installation name to view its inventory, photos, etc.
 
 ### Daily consumption by installation (kWh)
 {% include energy-table.html 
