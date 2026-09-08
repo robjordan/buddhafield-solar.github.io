@@ -2886,6 +2886,7 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .markdown-body table {
   width: 100% !important;
   max-width: 100% !important;
+  table-layout: fixed; /* Forces all columns to divide available width equally */
   word-wrap: break-word; /* Prevents long cell contents from breaking equal width */
 }
 
