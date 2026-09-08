@@ -1,3 +1,5 @@
+/* This is where I place my site-specific styles */
+
 /* ==========================================================================
    Table annotation tooltips
    - .annot marks a value with a dashed underline.
@@ -72,4 +74,35 @@
 .annot-tooltip[data-placement="bottom"]::after {
   bottom: 100%;
   border-bottom-color: #24292f;
+}
+
+/* Make the home page tables fit within the viewport width */
+/* assets/css/custom.css */
+.markdown-body table {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.markdown-body th,
+.markdown-body td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Responsive scaling */
+@media screen and (max-width: 768px) {
+  .markdown-body th,
+  .markdown-body td {
+    font-size: 0.75rem;
+    padding: 4px 2px !important;
+  }
+}
+
+/* Right-align numbers and tabular data */
+.num-cell {
+  text-align: center !important;
+  /*
+  font-variant-numeric: tabular-nums; /* Keeps numbers aligned nicely by column */
+  */
 }

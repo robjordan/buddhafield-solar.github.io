@@ -66,7 +66,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% assign opacity = val | divided_by: 15.0 | at_most: 1.0 %}
             {% endif %}
 
-            <td {% if val %}style="background-color: rgba(239, 68, 68, {{ opacity | round: 2 }}); color: {% if opacity > 0.6 %}white{% else %}inherit{% endif %};"{% endif %}>
+            <td class="num-cell" {% if val %}style="background-color: rgba(239, 68, 68, {{ opacity | round: 2 }}); color: {% if opacity > 0.6 %}white{% else %}inherit{% endif %};"{% endif %}>
                 {% if record.ConsKWh != "" and record.ConsKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.ConsEstimated != "" and record.ConsEstimated != nil %}
@@ -76,7 +76,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% endif %}
             </td>
             {% endfor %}
-            <td>
+            <td class="num-cell">
             {% if count_cons > 0 %}
                 {% assign mean = total_cons | divided_by: count_cons %}
                 {{ mean | round: 1 }}
@@ -150,7 +150,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% assign opacity = val | divided_by: 15.0 | at_most: 1.0 %}
             {% endif %}
 
-            <td {% if val %}style="background-color: rgba(239, 68, 68, {{ opacity | round: 2 }}); color: {% if opacity > 0.6 %}white{% else %}inherit{% endif %};"{% endif %}>
+            <td class="num-cell" {% if val %}style="background-color: rgba(239, 68, 68, {{ opacity | round: 2 }}); color: {% if opacity > 0.6 %}white{% else %}inherit{% endif %};"{% endif %}>
                 {% if record.GenKWh != "" and record.GenKWh != nil %}
                 {{ val | round: 1 }}
                 {% elsif record.GenEstimated != "" and record.GenEstimated != nil %}
@@ -160,7 +160,7 @@ Select an installation below to view its inventory, photos, etc.
                 {% endif %}
             </td>
             {% endfor %}
-            <td>
+            <td class="num-cell">
             {% if count_gen > 0 %}
                 {% assign mean = total_gen | divided_by: count_gen %}
                 {{ mean | round: 1 }}
