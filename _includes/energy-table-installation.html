@@ -1,0 +1,21 @@
+{% if page.generator %}
+  <h3>Daily Generation (kWh)</h3>
+  {% include energy-table.html 
+     type="generator" 
+     actual_key="GenKWh" 
+     est_key="GenEstimated" 
+     basis_key="GenEstimationBasis" 
+     bg_rgb="34, 197, 94"
+     inst_filter=page.title %}
+{% endif %}
+
+{% if page.consumer %}
+  <h3>Daily Consumption (kWh)</h3>
+  {% include energy-table.html 
+     type="consumer" 
+     actual_key="ConsKWh" 
+     est_key="ConsEstimated" 
+     basis_key="ConsEstimationBasis" 
+     bg_rgb="239, 68, 68"
+     inst_filter=page.title %}
+{% endif %}

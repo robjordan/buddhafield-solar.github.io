@@ -8,7 +8,7 @@ consumer: false
 
 # {{ page.title }}
 
-[← Back to Home]({{ site.baseurl }}/)
+{% include energy-table-installation.html %}
 
 ### Overview
 {{ page.summary }}
