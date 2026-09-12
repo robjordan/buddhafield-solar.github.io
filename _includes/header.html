@@ -1,0 +1,10 @@
+<section class="page-header">
+  <h1 class="project-name">
+    <a href="{{ '/' | relative_url }}" style="color: #ffffff; text-decoration: none;">
+      {{ site.title | default: site.github.repository_name }}
+    </a>
+  </h1>
+  {% if site.description %}
+    <h2 class="project-tagline" style="color: rgba(255, 255, 255, 0.7);">{{ site.description }}</h2>
+  {% endif %}
+</section>
