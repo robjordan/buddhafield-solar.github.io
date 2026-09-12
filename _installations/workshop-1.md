@@ -6,6 +6,9 @@ generator: true
 consumer: true
 ---
 
+Site URL: {{ site.url }}
+
+baseurl: {{ baseurl }}
 
 # {{ page.title }}
 
