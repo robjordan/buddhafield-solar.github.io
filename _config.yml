@@ -1,7 +1,7 @@
 # Site Identity
 title: "Buddhafield 2026 Solar Power Information Repository"
 description: "Capturing energy generation and consumption data, along with photographs, inventory, etc."
-url: "https://buddhafield-solar.github.io" # Your production domain without trailing slash
+url: "https://buddhafield-solar.bagu.uk" # Your production domain without trailing slash
 baseurl: "" # Leave empty for root user/org site, or "/repo-name" if hosted on a subpath
 
 # Localization
