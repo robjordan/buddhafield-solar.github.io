@@ -17,6 +17,10 @@ consumer: true
 *   Victron SmartSolar MPPT 150/85 - VE.Can charge controller {% include datasheet-link.html file="Datasheet-SmartSolar-charge-controller-MPPT-150-70-up-to-150-100-VE.Can-EN.pdf" %} S/N HQ2527Z2F4Z
 *   15x Sanyo HIT-H250E01 250W solar panels {% include datasheet-link.html file="Download.pdf" %} in 3 strings: 3S2P, 3S2P, 3S1P
 
+### Notes
+* EcoFlow has no facility to record daily energy consumption. Therefore consumption was initially estimated using generation as a proxy for consumption (since the solar generated is used to replenish the battery to full capacity each day).
+* From Fri 17th an energy monitor was installed but this was not enrolled with the online eWeLink monitoring system due to lack of network connection at Workshop 1. So the subsequent measurements are taken from the LCD display of the energy monnitor.
+
 {% include energy-table-installation.html %}
 
 {% include installation-gallery.html %}

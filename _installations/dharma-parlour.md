@@ -12,7 +12,8 @@ consumer: true
 {{ page.summary }}
 
 ### Inventory
-*   Stuff
+*   Single panel, single 12V battery ??
+*   EPever Tracer solar charge controller?
 
 {% include installation-gallery.html %}
 

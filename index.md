@@ -3,6 +3,8 @@ layout: default
 title: "Buddhafield 2026 Solar Power Information Repository"
 ---
 
+<img src="/assets/images/team-photo.jpeg" alt="Buddhafield 2026 solar power team.">
+
 {% if site.title %}
   <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
 {% endif %}

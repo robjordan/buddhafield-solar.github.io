@@ -1,0 +1,24 @@
+{% assign img_path = "/assets/images/" | append: include.file | relative_url %}
+
+<div class="gallery-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); margin: 1.5rem 0;">
+  <div class="gallery-item">
+    <a href="{{ img_path }}" onclick="openSingleLightbox(event, '{{ img_path }}')">
+      <img src="{{ img_path }}" alt="{{ include.alt | default: include.file }}" loading="lazy">
+    </a>
+  </div>
+</div>
+
+<script>
+  if (typeof openSingleLightbox !== 'function') {
+    function openSingleLightbox(event, imgUrl) {
+      if (event) event.preventDefault();
+      var modal = document.getElementById('image-lightbox');
+      var lightboxImg = document.getElementById('lightbox-img');
+      
+      if (modal && lightboxImg) {
+        lightboxImg.src = imgUrl;
+        modal.classList.add('is-open');
+      }
+    }
+  }
+</script>

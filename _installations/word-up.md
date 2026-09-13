@@ -12,6 +12,9 @@ consumer: true
 ### Overview
 {{ page.summary }}
 
+### Notes
+* Powered from output #3 of the consumer unit in [Main Trailer]({% link _installations/main-trailer.md %}) via dug-in cable.
+
 {% include energy-table-installation.html %}
 
 {% include installation-gallery.html %}

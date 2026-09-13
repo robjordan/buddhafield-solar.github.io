@@ -17,7 +17,9 @@ consumer: false
 *   Victron MultiPlus-II 48V/5000VA/70A Inverter {% include datasheet-link.html file="Datasheet-MultiPlus-II-inverter-charger-EN-.pdf" %} P/N PMP482505012 S/N HQ2542YDJM6
 *   4x PylonTech US5000 48V 5kWh battery pack {% include datasheet-link.html file="us5000-datasheet.pdf" %}
 *   Cerbo GX {% include datasheet-link.html file="Datasheet-Cerbo-GX-GX-Touch-EN.pdf" %} P/N 
-*   Victron Lynx Distributor bus bar {% include datasheet-link.html file="24531-Lynx_Distributor_Manual-pdf-en.pdf" %}
+*   Victron Lynx Distributor bus bar {% include datasheet-link.html file="24531-Lynx_Distributor_Manual-pdf-en.pdf" %} 
+
+
 
 {% include energy-table-installation.html %}
 

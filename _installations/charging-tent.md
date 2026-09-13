@@ -11,6 +11,12 @@ consumer: true
 ### Overview
 {{ page.summary }}
 
+### Inventory
+* Nothing recorded
+
+### Notes
+* Powered from output #1 of the consumer unit in [Main Trailer]({% link _installations/main-trailer.md %}).
+
 {% include energy-table-installation.html %}
 
 {% include installation-gallery.html %}

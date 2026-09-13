@@ -1,7 +1,7 @@
 [
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -14,7 +14,7 @@
   },
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -27,7 +27,7 @@
   },
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -40,7 +40,7 @@
   },
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -53,7 +53,7 @@
   },
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -66,7 +66,7 @@
   },
   {
     "Installation": "Charging Tent",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -79,7 +79,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -92,7 +92,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -105,7 +105,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -118,7 +118,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -131,7 +131,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -144,7 +144,7 @@
   },
   {
     "Installation": "Padma Pancakes",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -157,7 +157,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": 3.5575609756097557,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -170,7 +170,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": 3.375121951219512,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -183,7 +183,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": 3.375121951219512,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -196,7 +196,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": 5.587195121951219,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -209,7 +209,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": 3.078658536585366,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -222,7 +222,7 @@
   },
   {
     "Installation": "Site Office",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": 4.310121951219512,
     "GenEstimationBasis": "We have data from the 2 roof panels, reported by VictronConnect; pro-rate that to include the additional 2 panels connected via EPever controller",
@@ -235,7 +235,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": 12.2,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -248,7 +248,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": 12.9,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -261,7 +261,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": 17.2,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -274,7 +274,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": 21.2,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -287,7 +287,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": 23.5,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -300,7 +300,7 @@
   },
   {
     "Installation": "Main Trailer",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": 26.4,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -313,7 +313,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": 5.65,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -326,7 +326,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": 3.24,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -339,7 +339,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": 3.19,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -352,7 +352,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": 2.88,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -365,7 +365,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": 2.62,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -378,7 +378,7 @@
   },
   {
     "Installation": "Airfield",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": 2.44,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -391,7 +391,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -404,7 +404,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -417,7 +417,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -430,7 +430,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -443,7 +443,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -456,7 +456,7 @@
   },
   {
     "Installation": "Word Up",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -469,7 +469,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -482,7 +482,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -495,7 +495,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -508,7 +508,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -521,7 +521,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -534,7 +534,7 @@
   },
   {
     "Installation": "Soma",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -547,7 +547,7 @@
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": 2.55,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -555,12 +555,12 @@
     "LowBattVNormalised": "",
     "SOC%": "",
     "ConsKWh": "",
-    "ConsEstimated": "",
-    "ConsEstimationBasis": ""
+    "ConsEstimated": 2.55,
+    "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": 1.5,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -568,12 +568,12 @@
     "LowBattVNormalised": "",
     "SOC%": 85,
     "ConsKWh": "",
-    "ConsEstimated": "",
-    "ConsEstimationBasis": ""
+    "ConsEstimated": 1.5,
+    "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": 3.57,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -581,12 +581,12 @@
     "LowBattVNormalised": "",
     "SOC%": 86.42857142857143,
     "ConsKWh": "",
-    "ConsEstimated": "",
-    "ConsEstimationBasis": ""
+    "ConsEstimated": 3.57,
+    "ConsEstimationBasis": "We only have a measure of generated energy; use that as a proxy for consumed energy"
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": 3.16,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -599,7 +599,7 @@
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": 3.47,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -612,7 +612,7 @@
   },
   {
     "Installation": "Workshop 1",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": 4.43,
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -625,7 +625,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -638,7 +638,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -651,7 +651,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -664,7 +664,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -677,7 +677,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -690,7 +690,7 @@
   },
   {
     "Installation": "Recycling",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -703,7 +703,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-13T23:00:00.000Z",
+    "Date": "2026-07-14",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -716,7 +716,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-14T23:00:00.000Z",
+    "Date": "2026-07-15",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -729,7 +729,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-15T23:00:00.000Z",
+    "Date": "2026-07-16",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -742,7 +742,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-16T23:00:00.000Z",
+    "Date": "2026-07-17",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -755,7 +755,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-17T23:00:00.000Z",
+    "Date": "2026-07-18",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",
@@ -768,7 +768,7 @@
   },
   {
     "Installation": "Malvern Solar",
-    "Date": "2026-07-18T23:00:00.000Z",
+    "Date": "2026-07-19",
     "GenKWh": "",
     "GenEstimated": "",
     "GenEstimationBasis": "",

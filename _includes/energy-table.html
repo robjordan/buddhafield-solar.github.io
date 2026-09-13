@@ -21,7 +21,7 @@
       <th align="left">Installation</th>
       {% assign dates = site.data.energy | map: "Date" | uniq | compact | sort %}
       {% for d in dates %}
-        <th>{{ d | date: "%b %d" }}</th>
+        <th>{{ d | date: "%a %-d" }}</th>
       {% endfor %}
       <th>Mean</th>
     </tr>

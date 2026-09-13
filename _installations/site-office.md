@@ -17,7 +17,7 @@ consumer: true
 *   2x JA Solar JAM60D42-525/LB 525W {% include datasheet-link.html file="data_sheet_60d42_lb_en_13-11-2024.pdf" %} solar panels connected to ...
 *   EPever XTRA4210N-XDS2 {% include datasheet-link.html file="XTRA-N-G3-DataSheet_EN.pdf" %} SV:201 HV:421 S/N 04090730009A4BAX-00791
 *   Victron Phoenix Inverter Smart 24/3000 {% include datasheet-link.html file="Datasheet-Inverter-Smart-1600VA-5000VA-EN.pdf" %} P/N PIN242300000 S/N HQ2211DVVNV
-*   8x Trojan Motive T-105 6V {% include datasheet-link.html file="T105_Trojan_Data_Sheets.pdf" %} lead-acid batteries configured 4S2S (24V)
+*   8x Trojan Motive T-105 6V {% include datasheet-link.html file="T105_Trojan_Data_Sheets.pdf" %} lead-acid batteries configured 4S2P (24V)
 
 {% include energy-table-installation.html %}
 

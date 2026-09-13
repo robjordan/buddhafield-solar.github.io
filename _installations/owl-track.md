@@ -12,7 +12,11 @@ consumer: true
 {{ page.summary }}
 
 ### Inventory
-*   Stuff
+*   Sorry, no information recorded.
+*   ?? Solar panels
+*   ?? Battery
+*   ?? Solar charge controller
+*   ?? Inverter
 
 {% include installation-gallery.html %}
 
