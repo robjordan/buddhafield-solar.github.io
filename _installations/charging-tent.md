@@ -15,5 +15,4 @@ consumer: true
 
 {% include installation-gallery.html %}
 
-### Inventory
 *   Stuff

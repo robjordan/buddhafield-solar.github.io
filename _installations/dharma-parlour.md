@@ -11,7 +11,8 @@ consumer: true
 ### Overview
 {{ page.summary }}
 
-{% include installation-gallery.html %}
-
 ### Inventory
 *   Stuff
+
+{% include installation-gallery.html %}
+

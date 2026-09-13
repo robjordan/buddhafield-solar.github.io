@@ -14,6 +14,3 @@ consumer: true
 {% include energy-table-installation.html %}
 
 {% include installation-gallery.html %}
-
-### Inventory
-*   Stuff
